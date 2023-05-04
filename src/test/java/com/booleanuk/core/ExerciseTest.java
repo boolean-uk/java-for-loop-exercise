@@ -29,9 +29,9 @@ class ExerciseTest {
 
     @Test
     void testTimesTableReversed() {
-        Assertions.assertArrayEquals(new int[]{60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 10, 5}, exercise.timesTable(5));
-        Assertions.assertArrayEquals(new int[]{12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1}, exercise.timesTable(1));
-        Assertions.assertArrayEquals(new int[]{144, 132, 120, 108, 96, 84, 72, 60, 48, 36, 24, 12}, exercise.timesTable(12));
+        Assertions.assertArrayEquals(new int[]{60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 10, 5}, exercise.timesTableReversed(5));
+        Assertions.assertArrayEquals(new int[]{12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1}, exercise.timesTableReversed(1));
+        Assertions.assertArrayEquals(new int[]{144, 132, 120, 108, 96, 84, 72, 60, 48, 36, 24, 12}, exercise.timesTableReversed(12));
     }
 
     @Test
