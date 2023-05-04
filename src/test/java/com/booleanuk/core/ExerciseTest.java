@@ -62,7 +62,7 @@ class ExerciseTest {
 
     @Test
     void testSumOfNaturalNumbers() {
-        Assertions.assertEquals(13, exercise.sumOfNaturalNumbers(5));
+        Assertions.assertEquals(15, exercise.sumOfNaturalNumbers(5));
         Assertions.assertEquals(1, exercise.sumOfNaturalNumbers(1));
         Assertions.assertEquals(55, exercise.sumOfNaturalNumbers(10));
     }
